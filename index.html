@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel.io</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo" style="font-family:Verdana, Geneva, Tahoma, sans-serif">Travel.io</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to Travel.io</h1>
+        <p>Your adventure begins here. Discover new places, meet new people, and create unforgettable memories.</p>
+    </header>
+
+    <section id="destinations">
+        <h2>Top Destinations</h2>
+        <p>Explore the most beautiful places around the world. Whether you're looking for stunning beaches, vibrant cities, or tranquil mountains, we've got you covered.</p>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="assets/paris.jpg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>The City of Light offers a dazzling array of art, culture, and cuisine. Stroll along the Seine, visit the Eiffel Tower, and savor exquisite French pastries.</p>
+            </div>
+            <div class="card">
+                <img src="assets/bali.jpg" alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Known for its lush landscapes and serene beaches, Bali is a paradise for surfers, yogis, and anyone looking to unwind and connect with nature.</p>
+            </div>
+            <div class="card">
+                <img src="assets/nyc.jpg" alt="New York">
+                <h3>New York, USA</h3>
+                <p>The city that never sleeps is a hub of excitement and culture. From Broadway shows to world-class museums and iconic landmarks, New York has something for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Travel.io, we believe in the transformative power of travel. Our mission is to help you discover the wonders of the world, one adventure at a time. We are passionate about creating travel experiences that are not only enjoyable but also enriching and sustainable.</p>
+        <p>Founded by travel enthusiasts, TravelSite has grown into a community of explorers who share a love for adventure, culture, and new experiences. Join us and become a part of our journey.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance planning your next trip? Get in touch with us!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
